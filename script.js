@@ -1,6 +1,6 @@
 /**
  * Portfolio Interactive Scripts
- * Santiago Nassir - Professional Portfolio
+ * Nassir Santiago Cárdenas Caldas - Portfolio
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -40,18 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Trigger on load
 
-    // 2. Mini Terminal Typing Animation (Simulated)
-    const terminalContent = document.querySelector('.terminal-content');
-    if (terminalContent) {
-        // Log a hidden greeting in the developer browser console
-        console.log(
-            '%c Santiago Nassir %c Full-Stack Developer & Creative Technologist %c',
-            'background:#38bdf8 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #000; font-weight: bold;',
-            'background:#8b5cf6 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff;',
-            'background:transparent'
-        );
-        console.log('Interesado en mi código? Revisa mis repositorios en: https://github.com/santiagonassir');
-    }
+    // 2. Developer Console Greeting
+    console.log(
+        '%c Nassir Santiago Cárdenas Caldas %c Ciencia de Datos %c',
+        'background:#38bdf8 ; padding: 1px; border-radius: 3px 0 0 3px;  color: #000; font-weight: bold;',
+        'background:#34d399 ; padding: 1px; border-radius: 0 3px 3px 0;  color: #000; font-weight: bold;',
+        'background:transparent'
+    );
+    console.log('¿Te interesa mi código? Revisa mi perfil en: https://github.com/killerdoller');
 
     // 3. Smooth scrolling for nav links
     navLinks.forEach(link => {
