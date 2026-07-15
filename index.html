@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Nassir | Desarrollador Full-Stack</title>
+    <meta name="description" content="Portafolio profesional de Santiago Nassir - Desarrollador Full-Stack y Desarrollador de Tecnologías Creativas. Especializado en React, Next.js, Supabase y programación interactiva de audio.">
+    <!-- Google Fonts: Outfit (limpio, moderno) y Fira Code (retro-tecnológico para detalles) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Principal -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-accent">&lt;</span>S_NASSIR<span class="logo-accent">/&gt;</span>
+            </div>
+            <nav class="main-nav">
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#experience" class="nav-link">Experiencia</a>
+                <a href="#contact" class="nav-link contact-btn">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-pretitle">Hola, mi nombre es</span>
+                <h1 class="hero-title">Santiago Nassir.</h1>
+                <h2 class="hero-subtitle">Desarrollador Full-Stack &lt;y&gt; Tecnólogo Creativo.</h2>
+                <p class="hero-description">
+                    Desarrollo aplicaciones web modernas, robustas e interactivas. Especializado en el ecosistema de JavaScript/TypeScript, arquitecturas con React y Next.js, bases de datos estructuradas con Supabase, y la experimentación en interfaces dinámicas y procesamiento de audio en tiempo real.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Ver mis proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Ponernos en contacto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Soy un desarrollador apasionado por conectar la lógica de backend con interfaces web interactivas y altamente responsivas. Disfruto de la optimización del rendimiento y de crear experiencias digitales fluidas y atractivas.
+                    </p>
+                    <p>
+                        Además del desarrollo web convencional, exploro la programación audiovisual y la síntesis sonora utilizando lenguajes de codificación en vivo como <strong>TidalCycles</strong> y <strong>SuperCollider</strong>, lo que me ha dado un enfoque analítico profundo sobre el flujo de datos en tiempo real y la arquitectura de sistemas interactivos.
+                    </p>
+                    <p>
+                        Mi objetivo es construir soluciones limpias y eficientes para problemas reales, manteniendo siempre altos estándares de diseño y accesibilidad.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="terminal-mini">
+                        <div class="terminal-bar">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">nassir.sys</span>
+                        </div>
+                        <div class="terminal-content">
+                            <p><span class="t-accent">&gt;</span> nassir.location</p>
+                            <p class="t-result">"Colombia // Remoto"</p>
+                            <p><span class="t-accent">&gt;</span> nassir.status</p>
+                            <p class="t-result">"Disponible para proyectos"</p>
+                            <p><span class="t-accent">&gt;</span> nassir.focus</p>
+                            <p class="t-result">["Full-Stack Web", "Creative Coding", "Web Audio"]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1: Gabbanimaniac -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <h3 class="project-name">Gabbanimaniac</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">
+                            Un portal interactivo y espacio digital para la difusión del hardcore, speedcore y live-coding. Diseñado con una interfaz inspirada en la informática de los 90s, implementa procesamiento y secuenciación sonora en tiempo real.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5 / CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Audio API</span>
+                            <span class="tag">Live Coding</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/santiagonassir/gabbanimaniac" class="btn-link" target="_blank">Código Fuente &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: RentAI -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <h3 class="project-name">RentAI</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">
+                            Plataforma de emparejamiento inmobiliario e inquilinos inteligentes. Permite que estudiantes y propietarios conecten basándose en afinidades y requerimientos a través de interfaces fluidas y flujos automatizados de coincidencia (match).
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Supabase</span>
+                            <span class="tag">Framer Motion</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/santiagonassir/desarrollo-perfil" class="btn-link" target="_blank">Repositorio &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Audio Synthesis Engine -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <h3 class="project-name">Algorithmic Sound System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-desc">
+                            Motor de síntesis e improvisación algorítmica para live-coding. Desarrollado sobre SuperCollider, optimiza la latencia del flujo de síntesis SuperDirt para la secuenciación de patrones rítmicos complejos.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">SuperCollider</span>
+                            <span class="tag">TidalCycles</span>
+                            <span class="tag">Haskell</span>
+                            <span class="tag">OSC Protocol</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="badge">Estructura Interna</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 / CSS3 (Grid & Flexbox)</li>
+                        <li>JavaScript (ES6+) / TypeScript</li>
+                        <li>React / Next.js</li>
+                        <li>Framer Motion & Animaciones Web</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">Backend & Datos</h3>
+                    <ul class="skills-list">
+                        <li>Node.js / Express</li>
+                        <li>Supabase / PostgreSQL</li>
+                        <li>Autenticación y Seguridad (RLS)</li>
+                        <li>REST APIs / Integraciones externas</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">Audio & Creative Coding</h3>
+                    <ul class="skills-list">
+                        <li>Web Audio API / Web Synth</li>
+                        <li>SuperCollider & SuperDirt</li>
+                        <li>TidalCycles (Haskell)</li>
+                        <li>OSC / Integración de Hardware</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">Herramientas</h3>
+                    <ul class="skills-list">
+                        <li>Git & Gestión de Repositorios</li>
+                        <li>Terminal Bash / Linux OS</li>
+                        <li>Vercel / Netlify (Despliegues)</li>
+                        <li>Postman / Debugging de APIs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Experiencia -->
+    <section id="experience" class="experience-section">
+        <div class="section-container">
+            <h2 class="section-title">Experiencia & Educación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - Presente</span>
+                        <h3 class="timeline-role">Desarrollador Web (Proyectos Independientes)</h3>
+                        <p class="timeline-desc">
+                            Desarrollo del portal interactivo Gabbanimaniac y el MVP de RentAI. Implementación de bases de datos relacionales en Supabase con políticas de seguridad a nivel de fila (RLS), interfaces dinámicas en Next.js, y optimizaciones UX.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Presente</span>
+                        <h3 class="timeline-role">Intérprete y Organizador de Live-Coding</h3>
+                        <p class="timeline-desc">
+                            Planificación e improvisación algorítmica de eventos multimedia. Desarrollo de plantillas y scripts en Haskell y SuperCollider para el control óptimo de síntesis multicanal y secuenciación en vivo.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Formación</span>
+                        <h3 class="timeline-role">Autodidacta & Talleres de Síntesis Algorítmica</h3>
+                        <p class="timeline-desc">
+                            Estudios enfocados en la arquitectura de software web, patrones de diseño de APIs y composición algorítmica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-card">
+                <p class="contact-intro">
+                    ¿Tienes algún proyecto en mente o quieres charlar sobre desarrollo web y tecnología creativa? Siéntete libre de escribirme.
+                </p>
+                <div class="contact-details">
+                    <a href="mailto:santiagonassir@gmail.com" class="contact-link">
+                        <span class="contact-icon">&#9993;</span> santiagonassir@gmail.com
+                    </a>
+                    <a href="https://github.com/santiagonassir" target="_blank" class="contact-link">
+                        <span class="contact-icon">&#128187;</span> github.com/santiagonassir
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Santiago Nassir. Todos los derechos reservados.</p>
+            <p class="footer-tagline">Construido con HTML semántico y CSS Vanilla.</p>
+        </div>
+    </footer>
+</body>
+</html>
